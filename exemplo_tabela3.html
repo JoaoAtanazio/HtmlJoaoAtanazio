@@ -6,14 +6,14 @@
     <title>Revisão Tabelas</title>
 </head>
 <body>
-    <center><h1>ALINHAMENTO DE TABELA E CELULAS</h1></center>
-    <table border="1" align="center">
+    <center><h1>ALINHAMENTO DE TABELA E CELULAS</h1></center>  <!-- centraliza a tabela -->
+    <table border="1" align="center"> <!-- coloca a tabela em borda 1 e alinha no centro-->
 
-        <td> Primeiro Celula</td>
+        <td> Primeiro Celula</td>  <!--colunas-->
         <td> Segunda Celula</td>
         <td> Terceira Celula</td>
 
-        <tr>
+        <tr>  <!--linha-->
             <td align="center"> Centro</td>
             <td align="left"> Esquerda</td>
             <td align="right"> Direita</td>
@@ -23,21 +23,21 @@
 <br>
 <br>
 
-<center><h1>USO DO CELLSPACING</h1></center>
+<center><h1>USO DO CELLSPACING</h1></center>  <!--cellspacing serve para dar espaçamento entre a célula e a borda da tabela(como se fosse um margin)-->
     <table border="1" width="80%" cellspacing="30" align="left">
         <tr> 
-            <td width="33.33%" align="center"> Coluna 1</td>
+            <td width="33.33%" align="center"> Coluna 1</td>  <!--colunas com 33.33% de width(largura) para espaçamento igual em todas as colunas-->
             <td width="33.33%" align="center"> Coluna 2</td>
             <td width="33.33%" align="center"> Coluna 3</td>
         </tr> 
 
     </table>
 
+<br>  <!--pula linha-->
 <br>
 <br>
 <br>
-<br>
-<center><h1>USO DO CELLPADDING</h1></center>
+<center><h1>USO DO CELLPADDING</h1></center>  <!--cellpading serve para dar espaço entre o texto e a borda da célula-->
     <table border="1" width="80%" cellpadding="24" align="left">
         <tr> 
             <td width="25" align="center"> Aluno </td>
@@ -51,10 +51,10 @@
 <br>
 <br>
 <br>
-<center><h1>USO DO ROWSPAN</h1></center>
+<center><h1>USO DO ROWSPAN</h1></center>  <!--rowspan serve para mesclar linhas-->
     <table border="3" width="90%" cellpadding="7" align="center">
         <tr> 
-            <td width="16%" rowspan="3"> 3 Linhas </td>
+            <td width="16%" rowspan="3"> 3 Linhas </td>  <!--aqui ele mescla 3 linhas e faz com que ocupe o espaço de 3 linhas inteiras-->
             <td width="16%" align="center">L1 Coluna 2</td>
             <td width="16%" align="center"> L1 Coluna 3 </td>
             <td width="17%" align="center"> L1 Coluna 4 </td>
@@ -80,16 +80,16 @@
     <br>
     <br>
     <br>
-    <center><h1>USO DO COLSPAN</h1></center>
+    <center><h1>USO DO COLSPAN</h1></center>  <!--serve para mesclar colunas-->
         <table border="3" width="90%" cellpadding="7" align="center">
             <tr> 
-                <td width="24%" colspan="3"> Celula com 3 colunas </td>
+                <td width="24%" colspan="3"> Celula com 3 colunas </td>  <!--mescla 3 colunas-->
                 <td width="20%" >L1 Coluna 4</td>
                 <td width="20%" > L1 Coluna 5 </td>
             </tr> 
     
             <tr> 
-                <td width="16%" bgcolor="green">L2 Coluna 1</td>
+                <td width="16%" bgcolor="green">L2 Coluna 1</td>  <!--bgcolor é usado para definir a cor de fundo, e é usado para definir a cor de fundo desta coluna-->
                 <td width="16%" bgcolor="blue"> L2 Coluna 2 </td>
                 <td width="17%" bgcolor="yellow"> L2 Coluna 3</td>
                 <td width="24%" colspan="3" bgcolor="red"> Célula com 2 colunas</td>
